@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cidade.js">
+  <link rel="stylesheet" href="cidade.css">
+  <title>Cidades do Brasa</title>
+</head>
+<body>
+  <h1>escolha a cidade e verifique seus estados</h1>
+  <img src="br.webp" width="200px" height="120px">
+  <label for="estado">Estado:</label>
+  <select id="estado" onchange="getCidades()">
+    <option value="">Selecione o estado</option>
+  </select>
+
+  <label for="cidade">Cidade:</label>
+  <select id="cidade">
+    <option value="">Selecione uma cidade</option>
+  </select>
+
+  <script src="cidade.js"></script>
+</body>
+</html>
